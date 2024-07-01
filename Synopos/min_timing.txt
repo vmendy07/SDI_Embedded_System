@@ -1,0 +1,114 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 1
+Design : LA_dig
+Version: U-2022.12-SP4
+Date   : Fri Apr 26 15:19:38 2024
+****************************************
+
+Operating Conditions: tt0p85v25c   Library: saed32lvt_tt0p85v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: iDIG/iCAP_SM/armed_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: iDIG/iCAP_SM/armed_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  LA_dig             16000                 saed32lvt_tt0p85v25c
+
+  Point                                         Incr       Path
+  ----------------------------------------------------------------
+  clock clk (rise edge)                         0.00       0.00
+  clock network delay (ideal)                   0.00       0.00
+  iDIG/iCAP_SM/armed_reg/CLK (DFFARX2_LVT)      0.00       0.00 r
+  iDIG/iCAP_SM/armed_reg/Q (DFFARX2_LVT)        0.12       0.12 f
+  U1285/Y (AO22X2_LVT)                          0.07       0.19 f
+  iDIG/iCAP_SM/armed_reg/D (DFFARX2_LVT)        0.01       0.20 f
+  data arrival time                                        0.20
+
+  clock clk (rise edge)                         0.00       0.00
+  clock network delay (ideal)                   0.00       0.00
+  clock uncertainty                             0.20       0.20
+  iDIG/iCAP_SM/armed_reg/CLK (DFFARX2_LVT)      0.00       0.20 r
+  library hold time                             0.00       0.20
+  data required time                                       0.20
+  ----------------------------------------------------------------
+  data required time                                       0.20
+  data arrival time                                       -0.20
+  ----------------------------------------------------------------
+  slack (MET)                                              0.00
+
+
+  Startpoint: iCLKRST/decimator_cnt_reg[0]
+              (falling edge-triggered flip-flop clocked by clk400MHz)
+  Endpoint: iCLKRST/decimator_cnt_reg[0]
+            (falling edge-triggered flip-flop clocked by clk400MHz)
+  Path Group: clk400MHz
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  LA_dig             16000                 saed32lvt_tt0p85v25c
+
+  Point                                              Incr       Path
+  ---------------------------------------------------------------------
+  clock clk400MHz (fall edge)                        0.50       0.50
+  clock network delay (ideal)                        0.00       0.50
+  iCLKRST/decimator_cnt_reg[0]/CLK (DFFNX1_LVT)      0.00       0.50 f
+  iCLKRST/decimator_cnt_reg[0]/QN (DFFNX1_LVT)       0.06       0.56 r
+  U852/Y (AND2X1_LVT)                                0.03       0.59 r
+  iCLKRST/decimator_cnt_reg[0]/D (DFFNX1_LVT)        0.01       0.60 r
+  data arrival time                                             0.60
+
+  clock clk400MHz (fall edge)                        0.50       0.50
+  clock network delay (ideal)                        0.00       0.50
+  iCLKRST/decimator_cnt_reg[0]/CLK (DFFNX1_LVT)      0.00       0.50 f
+  library hold time                                  0.00       0.50
+  data required time                                            0.50
+  ---------------------------------------------------------------------
+  data required time                                            0.50
+  data arrival time                                            -0.60
+  ---------------------------------------------------------------------
+  slack (MET)                                                   0.10
+
+
+  Startpoint: iDIG/iCH1smpl/CH_Hff1_reg
+              (falling edge-triggered flip-flop clocked by smpl_clk)
+  Endpoint: iDIG/iCH1smpl/CH_Hff2_reg
+            (falling edge-triggered flip-flop clocked by smpl_clk)
+  Path Group: smpl_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  LA_dig             16000                 saed32lvt_tt0p85v25c
+
+  Point                                           Incr       Path
+  ------------------------------------------------------------------
+  clock smpl_clk (fall edge)                      0.50       0.50
+  clock network delay (ideal)                     0.00       0.50
+  iDIG/iCH1smpl/CH_Hff1_reg/CLK (DFFNX1_LVT)      0.00       0.50 f
+  iDIG/iCH1smpl/CH_Hff1_reg/Q (DFFNX1_LVT)        0.07       0.57 r
+  iDIG/iCH1smpl/CH_Hff2_reg/D (DFFNX1_LVT)        0.01       0.58 r
+  data arrival time                                          0.58
+
+  clock smpl_clk (fall edge)                      0.50       0.50
+  clock network delay (ideal)                     0.00       0.50
+  iDIG/iCH1smpl/CH_Hff2_reg/CLK (DFFNX1_LVT)      0.00       0.50 f
+  library hold time                               0.00       0.50
+  data required time                                         0.50
+  ------------------------------------------------------------------
+  data required time                                         0.50
+  data arrival time                                         -0.58
+  ------------------------------------------------------------------
+  slack (MET)                                                0.08
+
+
+1

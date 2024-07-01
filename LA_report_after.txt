@@ -1,0 +1,249 @@
+Coverage Report Summary Data by file
+
+=================================================================================
+=== File: /filespace/j/jecampos3/ECE 551/551_final_project_2/AFE.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         8         8         0   100.00%
+    Conditions                       4         2         2    50.00%
+    Expressions                      5         5         0   100.00%
+    Statements                      41        41         0   100.00%
+    Toggles                        208       202         6    97.11%
+
+=================================================================================
+=== File: /filespace/j/jecampos3/ECE 551/551_final_project_2/ComSender.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        19        19         0   100.00%
+    Statements                      22        22         0   100.00%
+    Toggles                        110       107         3    97.27%
+
+=================================================================================
+=== File: /filespace/j/jecampos3/ECE 551/551_final_project_2/LA_dig.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        338       310        28    91.71%
+
+=================================================================================
+=== File: /filespace/j/jecampos3/ECE 551/551_final_project_2/PWM8.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         5         5         0   100.00%
+    Conditions                       1         1         0   100.00%
+    Statements                       7         7         0   100.00%
+    Toggles                         38        29         9    76.31%
+
+=================================================================================
+=== File: /filespace/j/jecampos3/ECE 551/551_final_project_2/RAMqueue.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Statements                       3         3         0   100.00%
+    Toggles                         72        72         0   100.00%
+
+=================================================================================
+=== File: /filespace/j/jecampos3/ECE 551/551_final_project_2/SPI_RX.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        15        14         1    93.33%
+    Expressions                      6         5         1    83.33%
+    Statements                      31        30         1    96.77%
+    Toggles                        236       179        57    75.84%
+
+=================================================================================
+=== File: /filespace/j/jecampos3/ECE 551/551_final_project_2/SPI_TX.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        28        26         2    92.85%
+    Conditions                       6         4         2    66.66%
+    Expressions                      7         4         3    57.14%
+    Statements                      37        37         0   100.00%
+    Toggles                        116        80        36    68.96%
+
+=================================================================================
+=== File: /filespace/j/jecampos3/ECE 551/551_final_project_2/Testing_Tasks.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12         7         5    58.33%
+    Conditions                       6         2         4    33.33%
+    Statements                      62        51        11    82.25%
+
+=================================================================================
+=== File: /filespace/j/jecampos3/ECE 551/551_final_project_2/UART.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         48        47         1    97.91%
+
+=================================================================================
+=== File: /filespace/j/jecampos3/ECE 551/551_final_project_2/UART_prot.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         3         0   100.00%
+    Expressions                      2         2         0   100.00%
+    Statements                       6         6         0   100.00%
+    Toggles                        108        65        43    60.18%
+
+=================================================================================
+=== File: /filespace/j/jecampos3/ECE 551/551_final_project_2/UART_rx.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        24        24         0   100.00%
+    Conditions                       4         4         0   100.00%
+    Statements                      33        33         0   100.00%
+    Toggles                         80        79         1    98.75%
+
+=================================================================================
+=== File: /filespace/j/jecampos3/ECE 551/551_final_project_2/UART_rx_cfg_baud.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        24        24         0   100.00%
+    Conditions                       1         1         0   100.00%
+    Expressions                      4         4         0   100.00%
+    Statements                      37        37         0   100.00%
+    Toggles                        168       117        51    69.64%
+
+=================================================================================
+=== File: /filespace/j/jecampos3/ECE 551/551_final_project_2/UART_tx.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        23        23         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Expressions                      2         2         0   100.00%
+    Statements                      31        31         0   100.00%
+    Toggles                         76        75         1    98.68%
+
+=================================================================================
+=== File: /filespace/j/jecampos3/ECE 551/551_final_project_2/UART_tx_cfg_bd.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        22        22         0   100.00%
+    Conditions                       1         1         0   100.00%
+    Expressions                      3         3         0   100.00%
+    Statements                      29        29         0   100.00%
+    Toggles                        130        61        69    46.92%
+
+=================================================================================
+=== File: /filespace/j/jecampos3/ECE 551/551_final_project_2/UART_wrapper.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        14        14         0   100.00%
+    Statements                      21        21         0   100.00%
+    Toggles                        108       103         5    95.37%
+
+=================================================================================
+=== File: /filespace/j/jecampos3/ECE 551/551_final_project_2/capture_shell.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        27        27         0   100.00%
+    Conditions                       4         4         0   100.00%
+    Expressions                      2         2         0   100.00%
+    Statements                      35        35         0   100.00%
+    Toggles                        108       107         1    99.07%
+
+=================================================================================
+=== File: /filespace/j/jecampos3/ECE 551/551_final_project_2/channel_sample.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      13        13         0   100.00%
+    Toggles                         44        44         0   100.00%
+
+=================================================================================
+=== File: /filespace/j/jecampos3/ECE 551/551_final_project_2/chnnl_trig.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         4         0   100.00%
+    Expressions                     13        13         0   100.00%
+    Statements                      16        16         0   100.00%
+    Toggles                         42        40         2    95.23%
+
+=================================================================================
+=== File: /filespace/j/jecampos3/ECE 551/551_final_project_2/clk_rst_smpl.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        33        27         6    81.81%
+    Expressions                      6         6         0   100.00%
+    Statements                      47        41         6    87.23%
+    Toggles                         66        54        12    81.81%
+
+=================================================================================
+=== File: /filespace/j/jecampos3/ECE 551/551_final_project_2/cmd_cfg_shell.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        76        55        21    72.36%
+    Conditions                       4         4         0   100.00%
+    Statements                      99        79        20    79.79%
+    Toggles                        458       329       129    71.83%
+
+=================================================================================
+=== File: /filespace/j/jecampos3/ECE 551/551_final_project_2/dig_core.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        582       395       187    67.86%
+
+=================================================================================
+=== File: /filespace/j/jecampos3/ECE 551/551_final_project_2/dual_PWM.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         40        23        17    57.50%
+
+=================================================================================
+=== File: /filespace/j/jecampos3/ECE 551/551_final_project_2/pll8x.v
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        11         1    91.66%
+    Conditions                       6         4         2    66.66%
+    Statements                      21        21         0   100.00%
+    Toggles                         74        44        30    59.45%
+
+=================================================================================
+=== File: /filespace/j/jecampos3/ECE 551/551_final_project_2/prot_trig.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+    Statements                       3         3         0   100.00%
+    Toggles                        128        54        74    42.18%
+
+=================================================================================
+=== File: /filespace/j/jecampos3/ECE 551/551_final_project_2/trigger.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        204        94       110    46.07%
+
+=================================================================================
+=== File: /filespace/j/jecampos3/ECE 551/551_final_project_2/trigger_logic.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Expressions                     12        11         1    91.66%
+    Statements                       7         7         0   100.00%
+    Toggles                         30        27         3    90.00%
+
+
+Total Coverage By File (code coverage only, filtered view): 85.25%
+
